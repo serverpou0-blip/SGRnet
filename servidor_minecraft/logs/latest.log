@@ -1,0 +1,494 @@
+[19:33:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:33:49] [ServerMain/INFO]: Loaded 7 recipes
+[19:33:50] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:33:50] [Server thread/INFO]: Loading properties
+[19:33:50] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[19:33:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:33:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:33:51] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[19:33:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:33:51] [Server thread/INFO]: Default game type: SURVIVAL
+[19:33:51] [Server thread/INFO]: Generating keypair
+[19:33:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:33:51] [Server thread/INFO]: Using epoll channel type
+[19:33:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:33:51] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:33:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
+[19:33:52] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
+[19:33:53] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:33:53] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:33:53] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[19:33:54] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b132-5a72b6a)
+[19:33:55] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[19:33:55] [Server thread/INFO]: [floodgate] Took 966ms to boot Floodgate
+[19:33:55] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
+[19:33:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.2
+[19:33:55] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+[19:33:55] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[19:33:55] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[19:33:55] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[19:33:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7953c711]
+[19:33:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:33:56] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.2
+[19:33:57] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[19:33:57] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[19:33:57] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:33:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.2
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 5872d07
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:33:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[19:33:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:33:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:33:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[19:33:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:33:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:33:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:33:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:33:59] [Server thread/INFO]: Preparing level "world"
+[19:34:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:34:00] [Server thread/INFO]: Time elapsed: 251 ms
+[19:34:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:34:00] [Server thread/INFO]: Time elapsed: 69 ms
+[19:34:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:34:01] [Server thread/INFO]: Time elapsed: 30 ms
+[19:34:01] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
+[19:34:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[19:34:01] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b132-5a72b6a)
+[19:34:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
+[19:34:01] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.1-SNAPSHOT
+[19:34:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:34:05] [Server thread/INFO]: [Geyser-Spigot] 
+[19:34:05] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.1-b1165 (git-master-a09c335)
+[19:34:05] [Server thread/INFO]: [Geyser-Spigot] 
+[19:34:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:34:08] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[19:34:08] [Server thread/INFO]: [Geyser-Spigot] Done (3.805s)! Run /geyser help for help!
+[19:34:09] [Server thread/INFO]: Running delayed init tasks
+[19:34:09] [Server thread/INFO]: Done (19.135s)! For help, type "help"
+[19:34:09] [Server thread/INFO]: Timings Reset
+[19:34:09] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:34:57] [User Authenticator #0/INFO]: UUID of player ArtyIsland80902 is 73ec8f97-5c9f-3ff6-aaa3-6f15422f75d9
+[19:34:57] [Server thread/INFO]: ArtyIsland80902 joined the game
+[19:34:57] [Server thread/INFO]: ArtyIsland80902[/127.167.205.132:47855] logged in with entity id 47 at ([world]-22.5, 73.0, 135.5)
+[19:35:09] [Server thread/INFO]: ArtyIsland80902 lost connection: Disconnected
+[19:35:09] [Server thread/INFO]: ArtyIsland80902 left the game
+[19:41:52] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username ZeroTripod60365 (975)
+[19:41:52] [localSession-7-2/INFO]: [Geyser-Spigot] ZeroTripod60365 (logged in as: ZeroTripod60365) has connected to the Java server
+[19:41:53] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .ZeroTripod60365 is 00000000-0000-0000-0009-01fc0cc901a4
+[19:41:53] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZeroTripod60365 joined (UUID: 00000000-0000-0000-0009-01fc0cc901a4)
+[19:41:53] [Server thread/INFO]: .ZeroTripod60365 joined the game
+[19:41:53] [Server thread/INFO]: .ZeroTripod60365[/127.134.217.26:0] logged in with entity id 188 at ([world]-28.5, 72.0, 129.5)
+[19:43:18] [User Authenticator #1/INFO]: UUID of player ArtyIsland80902 is 73ec8f97-5c9f-3ff6-aaa3-6f15422f75d9
+[19:43:18] [Server thread/INFO]: ArtyIsland80902 joined the game
+[19:43:18] [Server thread/INFO]: ArtyIsland80902[/127.167.205.132:50239] logged in with entity id 532 at ([world]-22.5, 73.0, 135.5)
+[19:43:28] [Server thread/INFO]: ArtyIsland80902 lost connection: Disconnected
+[19:43:28] [Server thread/INFO]: ArtyIsland80902 left the game
+[19:43:59] [User Authenticator #1/INFO]: UUID of player ArtyIsland80902 is 73ec8f97-5c9f-3ff6-aaa3-6f15422f75d9
+[19:43:59] [Server thread/INFO]: ArtyIsland80902 joined the game
+[19:43:59] [Server thread/INFO]: ArtyIsland80902[/127.167.205.132:33585] logged in with entity id 652 at ([world]-22.5, 73.0, 135.5)
+[19:44:50] [Server thread/INFO]: ArtyIsland80902 lost connection: Disconnected
+[19:44:50] [Server thread/INFO]: ArtyIsland80902 left the game
+[19:47:20] [User Authenticator #2/INFO]: UUID of player ArtyIsland80902 is 73ec8f97-5c9f-3ff6-aaa3-6f15422f75d9
+[19:47:20] [Server thread/INFO]: ArtyIsland80902 joined the game
+[19:47:20] [Server thread/INFO]: ArtyIsland80902[/127.167.205.132:46451] logged in with entity id 1183 at ([world]-30.976943333459317, 79.0, 142.2019376920843)
+[19:48:07] [Server thread/INFO]: ArtyIsland80902 lost connection: Disconnected
+[19:48:07] [Server thread/INFO]: ArtyIsland80902 left the game
+[19:55:23] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username ArtyIsland80902 (975)
+[19:55:23] [localSession-7-3/INFO]: [Geyser-Spigot] ArtyIsland80902 (logged in as: ArtyIsland80902) has connected to the Java server
+[19:55:24] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .ArtyIsland80902 is 00000000-0000-0000-0009-01f25ea040d9
+[19:55:24] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ArtyIsland80902 joined (UUID: 00000000-0000-0000-0009-01f25ea040d9)
+[19:55:24] [Server thread/INFO]: .ArtyIsland80902 joined the game
+[19:55:24] [Server thread/INFO]: .ArtyIsland80902[/127.211.248.237:0] logged in with entity id 3329 at ([world]2568.535, 69.0, 1715.5513)
+[19:57:52] [Async Chat Thread - #1/INFO]: [Not Secure] <.ArtyIsland80902> andres
+[19:57:53] [Async Chat Thread - #0/INFO]: [Not Secure] <.ArtyIsland80902> ?
+[19:58:00] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZeroTripod60365> Que
+[19:58:15] [Async Chat Thread - #1/INFO]: [Not Secure] <.ArtyIsland80902> onde estas
+[19:58:36] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZeroTripod60365> En el spaw
+[20:00:19] [Server thread/WARN]: .ArtyIsland80902 moved wrongly!
+[20:18:50] [User Authenticator #3/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[20:18:50] [Server thread/INFO]: SebasyTU_ joined the game
+[20:18:50] [Server thread/INFO]: SebasyTU_[/127.74.100.108:33119] logged in with entity id 16268 at ([world]67076.54663213067, 64.0, 6653.048898113518)
+[20:19:28] [Async Chat Thread - #2/INFO]: [Not Secure] <SebasyTU_> andres queires tus cosas de vuelta?
+[20:19:36] [Server thread/INFO]: SebasyTU_ issued server command: /effect give SebasyTU_ minecraft:invisibility infinite 20 true
+[20:19:36] [Server thread/INFO]: [SebasyTU_: Applied effect Invisibility to SebasyTU_]
+[20:19:39] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ZeroTripod60365
+[20:19:39] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ZeroTripod60365]
+[20:20:35] [Async Chat Thread - #4/INFO]: [Not Secure] <.ZeroTripod60365> No,estoy bien
+[20:20:39] [Async Chat Thread - #5/INFO]: [Not Secure] <SebasyTU_> okey
+[20:21:02] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:21:02] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:21:16] [Server thread/INFO]: SebasyTU_ issued server command: /effect give SebasyTU_ minecraft:night_vision infinite 20 true
+[20:21:16] [Server thread/INFO]: [SebasyTU_: Applied effect Night Vision to SebasyTU_]
+[20:21:32] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:fortune 3
+[20:21:32] [Server thread/INFO]: [SebasyTU_: Applied enchantment Fortune III to SebasyTU_'s item]
+[20:22:32] [Server thread/INFO]: SebasyTU_ issued server command: /effect clear SebasyTU_
+[20:22:32] [Server thread/INFO]: [SebasyTU_: Removed every effect from SebasyTU_]
+[20:22:38] [Server thread/INFO]: SebasyTU_ issued server command: /effect give SebasyTU_ minecraft:night_vision infinite 20 true
+[20:22:38] [Server thread/INFO]: [SebasyTU_: Applied effect Night Vision to SebasyTU_]
+[20:22:57] [Async Chat Thread - #6/INFO]: [Not Secure] <SebasyTU_> oye eythan tienen base?
+[20:23:11] [Async Chat Thread - #8/INFO]: [Not Secure] <.ArtyIsland80902> yo no
+[20:23:16] [Async Chat Thread - #6/INFO]: [Not Secure] <SebasyTU_> a
+[20:23:23] [Async Chat Thread - #8/INFO]: [Not Secure] <.ZeroTripod60365> Yo tampoco
+[20:23:36] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:23:36] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:23:37] [Async Chat Thread - #6/INFO]: [Not Secure] <.ZeroTripod60365> Eythan haz llamada
+[20:23:50] [Async Chat Thread - #8/INFO]: [Not Secure] <.ArtyIsland80902> tu has
+[20:24:12] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:24:12] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:24:20] [Server thread/INFO]: SebasyTU_ has made the advancement [Not Today, Thank You]
+[20:24:34] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ZeroTripod60365
+[20:24:34] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ZeroTripod60365]
+[20:24:40] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:24:40] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:24:48] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:24:48] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:25:05] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:efficiency 5
+[20:25:05] [Server thread/INFO]: [SebasyTU_: Applied enchantment Efficiency V to SebasyTU_'s item]
+[20:25:16] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[20:25:16] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[20:25:27] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[20:25:27] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[20:25:33] [Server thread/INFO]: .ArtyIsland80902 has made the advancement [Hot Stuff]
+[20:26:08] [Server thread/INFO]: SebasyTU_ has made the advancement [Hot Stuff]
+[20:26:33] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:26:33] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:26:39] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:26:39] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:27:04] [Async Chat Thread - #10/INFO]: [Not Secure] <SebasyTU_> estan en llamada?
+[20:27:08] [Async Chat Thread - #10/INFO]: [Not Secure] <.ArtyIsland80902> no
+[20:27:57] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:27:57] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:28:04] [Server thread/INFO]: .ArtyIsland80902 has made the advancement [We Need to Go Deeper]
+[20:28:14] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:28:14] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:28:27] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:efficiency 5
+[20:28:27] [Server thread/INFO]: [SebasyTU_: Applied enchantment Efficiency V to SebasyTU_'s item]
+[20:28:34] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[20:28:34] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[20:29:13] [Async Chat Thread - #11/INFO]: [Not Secure] <SebasyTU_> te ayudo en algo eythan?
+[20:29:15] [Server thread/WARN]: .ArtyIsland80902 moved wrongly!
+[20:29:27] [Server thread/INFO]: SebasyTU_ fell from a high place
+[20:29:28] [Async Chat Thread - #11/INFO]: [Not Secure] <.ArtyIsland80902> a buscar la fortaleza
+[20:29:30] [Server thread/INFO]: SebasyTU_ has completed the challenge [Subspace Bubble]
+[20:29:42] [Async Chat Thread - #12/INFO]: [Not Secure] <SebasyTU_> me acabo de morir
+[20:29:45] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[20:29:45] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[20:30:25] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:30:25] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:30:54] [Async Chat Thread - #13/INFO]: [Not Secure] <SebasyTU_> dame un momento voy a mi base a equiparme de nuevo ya q mis cosas se quemaron
+[20:31:03] [Server thread/INFO]: SebasyTU_ issued server command: /tp 67000 70 6700
+[20:31:03] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 67000.500000, 70.000000, 6700.500000]
+[20:31:05] [Async Chat Thread - #14/INFO]: [Not Secure] <.ArtyIsland80902> ya
+[20:32:12] [Server thread/INFO]: SebasyTU_ issued server command: /tp 67000 70 6700
+[20:32:13] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 67000.500000, 70.000000, 6700.500000]
+[20:32:13] [Server thread/WARN]: SebasyTU_ moved too quickly! -467613.19893931586,52.267802843895055,-46456.98934772087
+[20:33:58] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:33:58] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:34:16] [Server thread/INFO]: SebasyTU_ issued server command: /experience set SebasyTU_ 200 levels
+[20:34:16] [Server thread/INFO]: [SebasyTU_: Set 200 experience levels on SebasyTU_]
+[20:34:24] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:34:24] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:35:31] [Server thread/INFO]: SebasyTU_ has made the advancement [Enchanter]
+[20:35:52] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:35:52] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:36:00] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[20:36:00] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[20:37:51] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:37:51] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:38:18] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:flame 2
+[20:38:23] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:flame 1
+[20:38:23] [Server thread/INFO]: [SebasyTU_: Applied enchantment Flame to SebasyTU_'s item]
+[20:38:29] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[20:38:29] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[20:38:54] [Server thread/INFO]: .ArtyIsland80902 has made the advancement [A Terrible Fortress]
+[20:39:03] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:39:03] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:39:16] [Server thread/INFO]: SebasyTU_ has made the advancement [A Terrible Fortress]
+[20:40:09] [Server thread/INFO]: SebasyTU_ has made the advancement [Into Fire]
+[20:40:30] [Server thread/INFO]: .ZeroTripod60365 has made the advancement [A Terrible Fortress]
+[20:40:32] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:looting 3
+[20:40:32] [Server thread/INFO]: [SebasyTU_: Applied enchantment Looting III to SebasyTU_'s item]
+[20:40:33] [Server thread/INFO]: .ArtyIsland80902 has made the advancement [Into Fire]
+[20:42:09] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[20:42:09] [Server thread/INFO]: SebasyTU_ left the game
+[20:42:12] [User Authenticator #4/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[20:42:12] [Server thread/INFO]: SebasyTU_ joined the game
+[20:42:12] [Server thread/INFO]: SebasyTU_[/127.74.100.108:47035] logged in with entity id 25942 at ([world_nether]-38.319696757521896, 27.91052064992196, -1036.4680157558205)
+[20:42:14] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:42:14] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:42:19] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:42:19] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:42:32] [Async Chat Thread - #15/INFO]: [Not Secure] <SebasyTU_> salvadota
+[20:47:37] [Async Chat Thread - #17/INFO]: [Not Secure] <SebasyTU_> xddd
+[20:47:41] [Async Chat Thread - #18/INFO]: [Not Secure] <SebasyTU_> habia una alado
+[20:47:45] [Server thread/INFO]: .ZeroTripod60365 has made the advancement [Into Fire]
+[20:48:49] [Server thread/INFO]: SebasyTU_ issued server command: /give SebasyTU_ minecraft:obsidian 15
+[20:48:49] [Server thread/INFO]: [SebasyTU_: Gave 15 [Obsidian] to SebasyTU_]
+[20:50:45] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:50:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:50:46] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode spectator
+[20:50:46] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[20:51:06] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:51:06] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:51:14] [Async Chat Thread - #19/INFO]: [Not Secure] <SebasyTU_> es mas abajo creo
+[20:51:36] [Async Chat Thread - #20/INFO]: [Not Secure] <SebasyTU_> cuidado
+[20:51:39] [Async Chat Thread - #19/INFO]: [Not Secure] <SebasyTU_> !
+[20:53:17] [Async Chat Thread - #21/INFO]: [Not Secure] <SebasyTU_> sube
+[20:54:02] [Async Chat Thread - #22/INFO]: [Not Secure] <.ArtyIsland80902> las coordenadas son 40 -18
+[20:54:11] [Async Chat Thread - #21/INFO]: [Not Secure] <SebasyTU_> de?
+[20:54:16] [Async Chat Thread - #22/INFO]: [Not Secure] <.ArtyIsland80902> portal
+[20:54:31] [Async Chat Thread - #22/INFO]: [Not Secure] <SebasyTU_> puuu nos pasamos hacer una hora
+[20:54:35] [Async Chat Thread - #21/INFO]: [Not Secure] <SebasyTU_> ahora seguime a m
+[20:54:38] [Async Chat Thread - #22/INFO]: [Not Secure] <SebasyTU_> mi
+[20:54:40] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[20:54:40] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[20:55:01] [Server thread/INFO]: SebasyTU_ has completed the challenge [Hot Tourist Destinations]
+[20:56:13] [Async Chat Thread - #24/INFO]: [Not Secure] <SebasyTU_> noiooo
+[20:56:17] [Async Chat Thread - #23/INFO]: [Not Secure] <SebasyTU_> mi espadaaa
+[20:56:19] [Async Chat Thread - #24/INFO]: [Not Secure] <SebasyTU_> la tire
+[20:56:22] [Async Chat Thread - #23/INFO]: [Not Secure] <SebasyTU_> le di a la Q
+[20:56:27] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode spectator
+[20:56:27] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[20:56:32] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:56:32] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:56:38] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:56:38] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:56:50] [Async Chat Thread - #24/INFO]: [Not Secure] <.ArtyIsland80902> tienes para barco
+[20:56:52] [Async Chat Thread - #23/INFO]: [Not Secure] <.ArtyIsland80902> ?
+[20:57:12] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:fire_aspect 2
+[20:57:12] [Server thread/INFO]: [SebasyTU_: Applied enchantment Fire Aspect II to SebasyTU_'s item]
+[20:57:17] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:looting 3
+[20:57:17] [Server thread/INFO]: [SebasyTU_: Applied enchantment Looting III to SebasyTU_'s item]
+[20:57:22] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[20:57:22] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[20:57:26] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:sharpness 5
+[20:57:26] [Server thread/INFO]: [SebasyTU_: Applied enchantment Sharpness V to SebasyTU_'s item]
+[20:58:14] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[20:58:14] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[20:58:41] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[20:58:41] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[20:59:16] [Server thread/INFO]: SebasyTU_ issued server command: /give SebasyTU_ minecraft:ender_pearl 16
+[20:59:16] [Server thread/INFO]: [SebasyTU_: Gave 16 [Ender Pearl] to SebasyTU_]
+[21:00:48] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[21:00:48] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:00:51] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:00:51] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:01:12] [Async Chat Thread - #25/INFO]: [Not Secure] <.ArtyIsland80902> vamos
+[21:01:16] [Async Chat Thread - #26/INFO]: [Not Secure] <SebasyTU_> va
+[21:02:07] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902 SebasyTU_
+[21:02:07] [Server thread/INFO]: [SebasyTU_: Teleported .ArtyIsland80902 to SebasyTU_]
+[21:02:07] [Server thread/WARN]: .ArtyIsland80902 moved too quickly! 24.85594759308164,8.0,-35.09456250895472
+[21:02:07] [Server thread/WARN]: .ArtyIsland80902 moved too quickly! 24.85594759308164,8.0,-35.09456250895472
+[21:02:07] [Server thread/WARN]: .ArtyIsland80902 moved too quickly! 24.85594759308164,8.0,-35.09456250895472
+[21:02:07] [Server thread/WARN]: .ArtyIsland80902 moved too quickly! 24.85594759308164,8.0,-35.09456250895472
+[21:02:20] [Async Chat Thread - #27/INFO]: [Not Secure] <.ArtyIsland80902> vi un puente
+[21:02:28] [Async Chat Thread - #28/INFO]: [Not Secure] <SebasyTU_> era le mio de hace rato
+[21:02:52] [Async Chat Thread - #27/INFO]: [Not Secure] <SebasyTU_> ay no q
+[21:03:00] [Async Chat Thread - #28/INFO]: [Not Secure] <SebasyTU_> es atras+
+[21:03:02] [Async Chat Thread - #27/INFO]: [Not Secure] <SebasyTU_> xd
+[21:03:06] [Async Chat Thread - #28/INFO]: [Not Secure] <SebasyTU_> ven
+[21:04:13] [Server thread/INFO]: .ZeroTripod60365 has completed the challenge [Hot Tourist Destinations]
+[21:04:23] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:04:23] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:04:38] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> xd
+[21:04:47] [Async Chat Thread - #30/INFO]: [Not Secure] <.ArtyIsland80902> andres de mierda
+[21:05:04] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> salgamos
+[21:05:22] [Async Chat Thread - #29/INFO]: [Not Secure] <.ArtyIsland80902> me das arco y flechas
+[21:05:31] [Async Chat Thread - #30/INFO]: [Not Secure] <SebasyTU_> solo tengo 1 arco
+[21:06:08] [User Authenticator #5/INFO]: UUID of player sotitoyeye is bf71dc2e-de68-3a14-b57a-1fb49143ed22
+[21:06:09] [Server thread/INFO]: sotitoyeye joined the game
+[21:06:09] [Server thread/INFO]: sotitoyeye[/127.213.120.228:41977] logged in with entity id 32259 at ([world]2558.1334643477317, 65.0, 1743.2913202778607)
+[21:06:13] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:infinity 1
+[21:06:13] [Server thread/INFO]: [SebasyTU_: Applied enchantment Infinity to SebasyTU_'s item]
+[21:06:44] [Async Chat Thread - #31/INFO]: [Not Secure] <SebasyTU_> xd reboto
+[21:08:20] [Server thread/INFO]: .ZeroTripod60365 burned to death
+[21:08:27] [Async Chat Thread - #33/INFO]: [Not Secure] <SebasyTU_> JAJAJAJA
+[21:08:58] [Server thread/INFO]: SebasyTU_ issued server command: /give SebasyTU_ minecraft:ender_pearl 32
+[21:08:58] [Server thread/INFO]: [SebasyTU_: Gave 32 [Ender Pearl] to SebasyTU_]
+[21:09:03] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:09:03] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:09:32] [Async Chat Thread - #35/INFO]: [Not Secure] <SebasyTU_> q lindo
+[21:09:38] [Async Chat Thread - #36/INFO]: [Not Secure] <SebasyTU_> portal
+[21:11:11] [Async Chat Thread - #37/INFO]: [Not Secure] <.ArtyIsland80902> colque
+[21:11:14] [Async Chat Thread - #38/INFO]: [Not Secure] <SebasyTU_> q
+[21:11:21] [Async Chat Thread - #37/INFO]: [Not Secure] <.ArtyIsland80902> esperame un rato
+[21:11:27] [Async Chat Thread - #38/INFO]: [Not Secure] <SebasyTU_> am ya
+[21:11:47] [Server thread/INFO]: SebasyTU_ issued server command: /locate structure minecraft:fortress
+[21:12:07] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[21:12:07] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:12:14] [Async Chat Thread - #37/INFO]: [Not Secure] <.ArtyIsland80902> ya toy
+[21:12:23] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[21:12:23] [Server thread/INFO]: SebasyTU_ left the game
+[21:12:32] [User Authenticator #6/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[21:12:33] [Server thread/INFO]: SebasyTU_ joined the game
+[21:12:33] [Server thread/INFO]: SebasyTU_[/127.74.100.108:53619] logged in with entity id 38601 at ([world]-1254.749008834215, 67.0, -618.348632976483)
+[21:12:35] [Async Chat Thread - #38/INFO]: [Not Secure] <.ArtyIsland80902> andres
+[21:12:39] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:12:39] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:12:47] [Async Chat Thread - #37/INFO]: [Not Secure] <.ArtyIsland80902> que paso como te quemaste
+[21:12:47] [Async Chat Thread - #38/INFO]: [Not Secure] <SebasyTU_> me laguie q raro
+[21:14:56] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:14:56] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:15:07] [Server thread/INFO]: SebasyTU_ issued server command: /give sotitoyeye minecraft:diamond 10
+[21:15:07] [Server thread/INFO]: [SebasyTU_: Gave 10 [Diamond] to sotitoyeye]
+[21:15:18] [Server thread/INFO]: sotitoyeye has made the advancement [Diamonds!]
+[21:15:19] [Async Chat Thread - #39/INFO]: [Not Secure] <.ArtyIsland80902> colque
+[21:15:26] [Async Chat Thread - #40/INFO]: [Not Secure] <.ArtyIsland80902> es aqui
+[21:15:32] [Server thread/INFO]: SebasyTU_ issued server command: /tp sotitoyeye
+[21:15:32] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to sotitoyeye]
+[21:15:52] [Server thread/INFO]: SebasyTU_ issued server command: /msg sotitoyeye explicame porq te acaba de dar el logro?
+[21:15:59] [Async Chat Thread - #39/INFO]: [Not Secure] <.ArtyIsland80902> colque?
+[21:16:05] [Async Chat Thread - #40/INFO]: [Not Secure] <SebasyTU_> espera ahora voy
+[21:16:51] [Server thread/INFO]: SebasyTU_ issued server command: /msg sotitoyeye dime porq te acaba de dar el logro?
+[21:17:03] [Server thread/INFO]: SebasyTU_ issued server command: /msg sotitoyeye no q tenias diamantes?
+[21:17:10] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[21:17:10] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:17:39] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:17:39] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:17:42] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:17:42] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:18:26] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:18:26] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:18:44] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode spectator
+[21:18:44] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[21:19:06] [Async Chat Thread - #41/INFO]: [Not Secure] <SebasyTU_> creo q te equivocaste
+[21:19:23] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:19:23] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:19:42] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:19:42] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:19:59] [Async Chat Thread - #42/INFO]: [Not Secure] <SebasyTU_> eythan viste mal porq acabo de salir y me señala q sigue
+[21:20:03] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902 sotitoyeye
+[21:20:03] [Server thread/INFO]: [SebasyTU_: Teleported .ArtyIsland80902 to sotitoyeye]
+[21:20:03] [Server thread/WARN]: .ArtyIsland80902 moved too quickly! 4203.709695152587,70.0,2743.918000011921
+[21:20:10] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902 SebasyTU_
+[21:20:10] [Server thread/INFO]: [SebasyTU_: Teleported .ArtyIsland80902 to SebasyTU_]
+[21:20:10] [Server thread/WARN]: .ArtyIsland80902 moved too quickly! -4193.003141440919,13.078400000000002,-2724.9192217781792
+[21:20:10] [Server thread/WARN]: .ArtyIsland80902 moved too quickly! -4193.003141440919,13.078400000000002,-2724.9192217781792
+[21:20:26] [Async Chat Thread - #41/INFO]: [Not Secure] <SebasyTU_> por aca
+[21:20:42] [Async Chat Thread - #42/INFO]: [Not Secure] <SebasyTU_> no
+[21:20:47] [Async Chat Thread - #41/INFO]: [Not Secure] <SebasyTU_> ciego
+[21:20:55] [Async Chat Thread - #42/INFO]: [Not Secure] <.ArtyIsland80902> lanza a ver
+[21:22:02] [Server thread/WARN]: .ArtyIsland80902 moved wrongly!
+[21:22:44] [Async Chat Thread - #43/INFO]: [Not Secure] <.ArtyIsland80902> pero estamos volviendo
+[21:22:48] [Async Chat Thread - #44/INFO]: [Not Secure] <SebasyTU_> no
+[21:22:59] [Async Chat Thread - #43/INFO]: [Not Secure] <SebasyTU_> q mal te ubicas
+[21:23:56] [Async Chat Thread - #44/INFO]: [Not Secure] <SebasyTU_> xd
+[21:26:35] [Async Chat Thread - #45/INFO]: [Not Secure] <SebasyTU_> mmmm
+[21:26:46] [Async Chat Thread - #46/INFO]: [Not Secure] <SebasyTU_> q ,mrd????
+[21:26:57] [Server thread/INFO]: SebasyTU_ issued server command: /locate structure minecraft:fortress
+[21:27:14] [Async Chat Thread - #45/INFO]: [Not Secure] <.ArtyIsland80902> ya nos pasamos
+[21:27:15] [Async Chat Thread - #46/INFO]: [Not Secure] <SebasyTU_> pero ya revicde y no hasy ninguna fortress ahi
+[21:27:31] [Async Chat Thread - #45/INFO]: [Not Secure] <.ArtyIsland80902> en el centro
+[21:27:32] [Server thread/INFO]: SebasyTU_ hit the ground too hard
+[21:27:37] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:27:37] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:27:49] [Server thread/INFO]: sotitoyeye was slain by Zombie
+[21:28:56] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:28:56] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:29:36] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:29:36] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:30:03] [Async Chat Thread - #47/INFO]: [Not Secure] <SebasyTU_> aqui abajoo
+[21:31:40] [Async Chat Thread - #49/INFO]: [Not Secure] <SebasyTU_> xd
+[21:31:42] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode spectator
+[21:31:42] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[21:32:00] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[21:32:00] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:32:07] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:32:07] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:32:44] [Server thread/INFO]: .ArtyIsland80902 has made the advancement [Eye Spy]
+[21:32:48] [Server thread/INFO]: SebasyTU_ has made the advancement [Eye Spy]
+[21:33:07] [Server thread/INFO]: SebasyTU_ has made the advancement [The End?]
+[21:33:08] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[21:33:08] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[21:33:12] [Server thread/INFO]: .ArtyIsland80902 has made the advancement [The End?]
+[21:33:40] [Async Chat Thread - #51/INFO]: [Not Secure] <SebasyTU_> xd???
+[21:33:44] [Async Chat Thread - #52/INFO]: [Not Secure] <SebasyTU_> no hay
+[21:33:54] [Async Chat Thread - #51/INFO]: [Not Secure] <.ArtyIsland80902> se bugueo
+[21:34:06] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[21:34:06] [Server thread/INFO]: SebasyTU_ left the game
+[21:34:08] [User Authenticator #7/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[21:34:08] [Server thread/INFO]: SebasyTU_ joined the game
+[21:34:08] [Server thread/INFO]: SebasyTU_[/127.74.100.108:52091] logged in with entity id 56728 at ([world_the_end]-4.603813556705074, 66.61253226988316, 19.191165329775398)
+[21:34:37] [Server thread/INFO]: SebasyTU_ issued server command: /effect give SebasyTU_ minecraft:strength infinite 5 true
+[21:34:37] [Server thread/INFO]: [SebasyTU_: Applied effect Strength to SebasyTU_]
+[21:35:13] [Server thread/INFO]: SebasyTU_ has made the advancement [Free the End]
+[21:35:43] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[21:35:43] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:35:47] [Server thread/INFO]: .ArtyIsland80902 has reached the goal [The Next Generation]
+[21:35:51] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:35:51] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:35:55] [Server thread/INFO]: SebasyTU_ has reached the goal [The Next Generation]
+[21:36:09] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> elytras?!
+[21:36:18] [Async Chat Thread - #54/INFO]: [Not Secure] <.ArtyIsland80902> si pues
+[21:36:51] [Server thread/INFO]: .ZeroTripod60365 was shot by Skeleton
+[21:37:34] [Async Chat Thread - #55/INFO]: [Not Secure] <SebasyTU_> ya
+[21:38:00] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[21:38:00] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:38:06] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902 sotitoyeye
+[21:38:06] [Server thread/INFO]: [SebasyTU_: Teleported .ArtyIsland80902 to sotitoyeye]
+[21:38:23] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902 sotitoyeye
+[21:38:23] [Server thread/INFO]: [SebasyTU_: Teleported .ArtyIsland80902 to sotitoyeye]
+[21:38:27] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902 SebasyTU_
+[21:38:27] [Server thread/INFO]: [SebasyTU_: Teleported .ArtyIsland80902 to SebasyTU_]
+[21:38:30] [Async Chat Thread - #56/INFO]: [Not Secure] <SebasyTU_> uf salvadota
+[21:38:31] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:38:31] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:38:36] [Async Chat Thread - #56/INFO]: [Not Secure] <SebasyTU_> casi mueres
+[21:38:37] [Async Chat Thread - #55/INFO]: [Not Secure] <.ArtyIsland80902> medio
+[21:38:56] [Server thread/INFO]: SebasyTU_ has made the advancement [Remote Getaway]
+[21:39:11] [Server thread/INFO]: .ArtyIsland80902 has made the advancement [Remote Getaway]
+[21:40:26] [Async Chat Thread - #57/INFO]: [Not Secure] <.ArtyIsland80902> colque
+[21:40:34] [Server thread/INFO]: SebasyTU_ issued server command: /tp .ArtyIsland80902
+[21:40:34] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to .ArtyIsland80902]
+[21:40:37] [Async Chat Thread - #58/INFO]: [Not Secure] <.ArtyIsland80902> mas tarde voy a entrar
+[21:40:42] [Async Chat Thread - #57/INFO]: [Not Secure] <SebasyTU_> valep
+[21:40:46] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] ArtyIsland80902 has disconnected from the Java server because of Bedrock client disconnected
+[21:40:46] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ArtyIsland80902 disconnected
+[21:40:46] [Server thread/INFO]: .ArtyIsland80902 lost connection: Disconnected
+[21:40:46] [Server thread/INFO]: .ArtyIsland80902 left the game
+[21:41:07] [Async Chat Thread - #58/INFO]: [Not Secure] <SebasyTU_> su pt madreee!
+[21:41:13] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[21:41:13] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:42:47] [Async Chat Thread - #59/INFO]: [Not Secure] <SebasyTU_> o si nenas
+[21:42:48] [Server thread/INFO]: SebasyTU_ has reached the goal [Sky's the Limit]
+[21:42:57] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:42:57] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:43:31] [Async Chat Thread - #60/INFO]: [Not Secure] <SebasyTU_> bueno yo me voy por hoy gays
+[21:43:34] [Async Chat Thread - #59/INFO]: [Not Secure] <SebasyTU_> me canse
+[21:43:38] [Async Chat Thread - #60/INFO]: [Not Secure] <SebasyTU_> pero me pase el juego
+[21:44:05] [Async Chat Thread - #59/INFO]: [Not Secure] <sotitoyeye> CON CREATIVO
+[21:44:21] [Async Chat Thread - #59/INFO]: [Not Secure] <SebasyTU_> no porq lo hice con el eythan
+[21:44:47] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative
+[21:44:47] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:45:09] [Async Chat Thread - #60/INFO]: [Not Secure] <SebasyTU_> bye bye
+[21:45:11] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:45:11] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:45:12] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[21:45:12] [Server thread/INFO]: SebasyTU_ left the game
+[22:00:35] [Server thread/INFO]: sotitoyeye has made the advancement [Hot Stuff]
+[22:02:17] [Async Chat Thread - #61/INFO]: [Not Secure] <sotitoyeye> amdres
+[22:02:23] [Async Chat Thread - #62/INFO]: [Not Secure] <.ZeroTripod60365> Que
+[22:02:33] [Async Chat Thread - #61/INFO]: [Not Secure] <sotitoyeye> pasa cordenadas
+[22:02:57] [Async Chat Thread - #62/INFO]: [Not Secure] <.ZeroTripod60365> -63,-56,1278
+[22:03:50] [Async Chat Thread - #61/INFO]: [Not Secure] <sotitoyeye> si me pasas las cordenadas de su nase del santin te perdono
+[22:04:10] [Async Chat Thread - #62/INFO]: [Not Secure] <sotitoyeye> ¿¿¿
+[22:04:32] [Async Chat Thread - #61/INFO]: [Not Secure] <.ZeroTripod60365> No tiene base
+[22:04:46] [Async Chat Thread - #62/INFO]: [Not Secure] <sotitoyeye> del arturo
+[22:05:29] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username ArtyIsland80902 (975)
+[22:05:29] [localSession-7-4/INFO]: [Geyser-Spigot] ArtyIsland80902 (logged in as: ArtyIsland80902) has connected to the Java server
+[22:05:30] [Geyser Spigot connection thread-6-1/INFO]: UUID of player .ArtyIsland80902 is 00000000-0000-0000-0009-01f25ea040d9
+[22:05:30] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ArtyIsland80902 joined (UUID: 00000000-0000-0000-0009-01f25ea040d9)
+[22:05:30] [Server thread/INFO]: .ArtyIsland80902 joined the game
+[22:05:30] [Server thread/INFO]: .ArtyIsland80902[/127.211.248.237:0] logged in with entity id 72267 at ([world_the_end]758.2287, 65.0, -841.0282)
